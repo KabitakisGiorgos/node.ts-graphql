@@ -1,0 +1,31 @@
+{
+  "name": "node.ts-graphql",
+  "version": "1.0.0",
+  "description": "Node.ts server with GraphQL implemented ",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "start": "ts-node-dev --respawn --transpileOnly ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://csd3142@bitbucket.org/csd3142/node.ts-graphql.git"
+  },
+  "author": "Kampitakis Giorgos",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/csd3142/node.ts-graphql#readme",
+  "dependencies": {
+    "@types/node": "^11.9.4",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "fast-json-patch": "^2.0.7",
+    "graphql": "^14.1.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.14",
+    "ts-node": "^8.0.2",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.3.3"
+  }
+}
